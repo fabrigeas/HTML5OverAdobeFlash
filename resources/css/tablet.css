@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    nav#navigation ul{
+        flex-flow: column;
+    }
+    div.content{
+        box-sizing: border-box;
+        border:1px solid;
+        height:75%;
+        padding:1em;
+    }
+    footer{
+        flex-flow: column;
+    }
+    footer div{
+        width: 100%;
+    }
+}
