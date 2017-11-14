@@ -1,5 +1,5 @@
 <!DOCTYPE>
-    <html>
+<html>
     <head>
         <meta charset="utf-8" />
         <title>Bsc Thesis Displaying videos using HTML5</title>
@@ -19,19 +19,140 @@
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     </head>
-    <object width="400" height="224" >
-        <param name="allowfullscreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <param name="movie" value="http://www.facebook.com/v/xxx" />
-        <embed src="http://www.facebook.com/v/xxx" type="application/x-shockwave-flash"
-               allowscriptaccess="always" allowfullscreen="true" width="400" height="224">
-        </embed>
-    </object>
-
 
     <body>
+
+    <!-- Facebook video -->
         <div class="content" id="home">
-            <embed src="sample.mov" width="200" height="auto" controller="true">
+
+            <!-- embed-->
+            <div id="embed-video" class="video-frame">
+                <h2>Embedded Video using the html Embed tag</h2>
+                <!--
+                <embed src="my-mp4.mp4"
+                       width="560"
+                       height="316"
+                       controller="true">
+                -->
+            </div>
+
+            <!-- Youtube Video-->
+            <div id="youtube-video" class="video-frame">
+                <h2>YouTube Video</h2>
+              <iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
+                      width="500"
+                      height="auto"
+                      frameborder="0"
+                      gesture="media"
+                      allowfullscreen>
+              </iframe>
+            </div>
+
+            <!-- Facebook 1 --->
+            <div id="facebook-video" class="video-frame">
+                <h2>Facebook Video</h2>
+                <object width="560" height="315" >
+                    <param name="allowfullscreen" value="true" />
+                    <param name="allowscriptaccess" value="always" />
+                    <param name="movie" value="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F" />
+                    <embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"
+                           type="application/x-shockwave-flash"
+                           allowscriptaccess="always"
+                           allowfullscreen="true"
+                           width="500"
+                           height="auto">
+                    </embed>
+                </object>
+            </div>
+
+            <!-- Facebook 2-->
+            <div id="facebook-video-1" class="video-frame">
+                <h2>facebook Video</h2>
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"
+                        width="560"
+                        height="315"
+                        style="border:none;overflow:hidden"
+                        scrolling="no"
+                        frameborder="0"
+                        allowTransparency="true"
+                        allowFullScreen="true">
+                </iframe>
+            </div>
+
+            <!-- HTML5 -->
+            <div id="html5-video" class="video-frame">
+                <h2>Video embedded using HTML5 method</h2>
+                <video width="500" controls>
+                    <source src="mov_bbb.mp4" type="video/ogg">
+                    <source src="my-mp4.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+
+            <!-- Flash-->
+            <!--
+            <div id="flash-video" class="video-frame">
+                <embed src="mediaplayermy-mp4.mp4" >
+
+                </embed>
+            </div>-->
+
+            <!-- Quicktime-->
+            <div id="quicktime-video" class="video-frame">
+                <h2>Playing a video using QuickTime Player</h2>
+                <!-- <object width="560" height="auto" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+                        codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+                    <param name="src" value="my-mp4.mp4">
+                    <param name="autoplay" value="false">
+                    <param name="controller" value="false">
+
+                    <embed src="my-mp4.mp4" width="560" height="auto"
+                           autoplay="false" controller="true"
+                           pluginspage="http://www.apple.com/quicktime/download/">
+                    </embed>
+                </object>-->
+
+                <object width="320" height="240" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
+                    <param name="controls" value="ImageWindow" />
+                    <param name="autostart" value="true" />
+                    <param name="src" value="my-mp4.mp4" />
+                    <!--
+                    <embed src="my-mp4.mp4" width="560" height="auto"
+                           autoplay="false" controller="true"
+                           pluginspage="http://www.apple.com/quicktime/download/">
+                    </embed>
+                    -->
+                </object>
+
+            </div>
+            <!-- Windows Media-->
+            <div id="wmp-video" class="video-frame">
+                <h2>Windows Media Player</h2>
+                <object width="560" height="315" url="my-mp4.mp4" data="/my-mp4.mp4">
+                    <param name="url" value="my-mp4.mp4" />
+                    <param name="filename" value="my-mp4.mp4" />
+                    <param name="autostart" value="false" />
+                    <param name="autosize" value="false" />
+                    <param name="playcount" value="false" />
+                    <param name="uiMode" value="full"/>
+                    <!--<embed src="my-mp4.mp4"
+                           autostart="false"
+                           showcontrols="false"
+                           type="application/x-mplayer2"
+                           allowscriptaccess="always"
+                           allowfullscreen="true"
+                           pluginspage="https://www.microsoft.com/Windows/MediaPlayer/"
+                           width="560"
+                           height="315">
+                    </embed>-->
+                </object>
+            </div>
+
+            <div id="other-video" class="video-frame">
+                <h2>Vimeo</h2>
+
+            </div>
+
         </div>
     </body>
 </html>

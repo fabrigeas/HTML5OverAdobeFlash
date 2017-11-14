@@ -18,45 +18,14 @@ div.content{
     padding:1em;
 }
 
-/** Navigation*/
-nav#navigation ul{
-    list-style-type: none;
-    padding:0;
-    margin:0;
-    display:flex;
+.video-frame{
+    padding:2rem;
+    background: red;
+    margin:2rem;
 }
-nav#navigation ul li{
-    width:100%;
-    text-align: center;
+embed{
+    margin: auto;
 }
-nav#navigation ul li a{
-    display: block;
-    padding: 2em;
-    text-decoration:none;
-}
-nav#navigation ul li a{
-    border-radius: 2%;
-    font-size: xx-large;
-    font-family: Verdana,"Times New Roman", Georgia, Serif;
-    text-shadow: 4px 4px 4px #999;
-    padding: 0.5em ;
-    box-shadow: 1px 1px 1px 1px #999;
-    -moz-box-shadow: 1px 1px 1px 1px #999;
-    -webkit-box-shadow: 1px 1px 1px 1px #999;
-}
-
-
-/* Headers and footers*/
-header,footer{
-}
-footer{
-    position: fixed;
-    display: flex;
-    background-color: #08121f;
-    padding: 1em;
-    color: darkgray;
-}
-footer div{
-    width:100%;
-    padding: 0 1em;
+h2{
+    color: white;
 }
