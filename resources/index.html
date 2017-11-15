@@ -18,25 +18,85 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-    </head>
 
+
+    </head>
+    <script>
+        function showSWF(urlString, elementID){
+            var displayContainer = document.getElementById(elementID);
+            var flash = createSWFObject(urlString, 'opaque', 650, 650);
+            displayContainer.appendChild(flash);
+        }
+        function createSWFObject(urlString, wmodeString, width, height){
+            var SWFObject = document.createElement("object");
+            SWFObject.setAttribute("type","application/x-shockwave-flash");
+            SWFObject.setAttribute("width","100%");
+            SWFObject.setAttribute("height","100%");
+
+            var movieParam = document.createElement("param");
+            movieParam.setAttribute("name","movie");
+            movieParam.setAttribute("value",urlString);
+            SWFObject.appendChild(movieParam);
+
+            var wmodeParam = document.createElement("param");
+            wmodeParam.setAttribute("name","wmode");
+            wmodeParam.setAttribute("value",wmodeString);
+            SWFObject.appendChild(wmodeParam);
+            return SWFObject;
+        }
+        $(function () {
+            //showSWF("videos/my-mp4.swf","display")
+            //showSWF2("videos/my-mp4.swf","display")
+        });
+
+        var imageLoader;
+
+        function showSWF2(urlString, elementID){
+            var displayContainer = document.getElementById(elementID);
+            imageLoader = createSWFObject(urlString,650,650);
+            displayContainer.appendChild(imageLoader);
+        }
+
+        function createSWFObject2(urlString, width, height){
+
+            var SWFObject = document.createElement("object");
+            SWFObject.setAttribute("type","application/x-shockwave-flash");
+            SWFObject.setAttribute("width","100%");
+            SWFObject.setAttribute("height","100%");
+
+            var movieParam = document.createElement("param");
+            movieParam.setAttribute("name","movie");
+            movieParam.setAttribute("value",urlString);
+            SWFObject.appendChild(movieParam);
+
+            var flashVars = document.createElement("param");
+            flashVars.setAttribute("name","FlashVars");
+
+            //Load the asset inside the SWF content.
+            flashVars.setAttribute("value","imgPath=air.jpg");
+            SWFObject.appendChild(flashVars);
+
+            return SWFObject;
+        }
+    </script>
     <body>
 
     <!-- Facebook video -->
         <div class="content" id="home">
 
             <!-- embed-->
+            <!--
             <div id="embed-video" class="video-frame">
                 <h2>Embedded Video using the html Embed tag</h2>
-                <!--
                 <embed src="my-mp4.mp4"
                        width="560"
                        height="316"
                        controller="true">
-                -->
             </div>
+            -->
 
-            <!-- Youtube Video-->
+            <!-- Youtube Video -->
+            <!--
             <div id="youtube-video" class="video-frame">
                 <h2>YouTube Video</h2>
               <iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
@@ -48,7 +108,9 @@
               </iframe>
             </div>
 
+
             <!-- Facebook 1 --->
+            <!--
             <div id="facebook-video" class="video-frame">
                 <h2>Facebook Video</h2>
                 <object width="560" height="315" >
@@ -64,8 +126,10 @@
                     </embed>
                 </object>
             </div>
+            -->
 
             <!-- Facebook 2-->
+            <!--
             <div id="facebook-video-1" class="video-frame">
                 <h2>facebook Video</h2>
                 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"
@@ -78,8 +142,10 @@
                         allowFullScreen="true">
                 </iframe>
             </div>
+            -->
 
             <!-- HTML5 -->
+            <!--
             <div id="html5-video" class="video-frame">
                 <h2>Video embedded using HTML5 method</h2>
                 <video width="500" controls>
@@ -88,16 +154,67 @@
                     Your browser does not support HTML5 video.
                 </video>
             </div>
+            -->
 
-            <!-- Flash-->
-            <!--
+            <!-- Adobe Flash-->
             <div id="flash-video" class="video-frame">
-                <embed src="mediaplayermy-mp4.mp4" >
+                <a href="https://helpx.adobe.com/flash/kb/flash-object-embed-tag-attributes.html" target="_blank"> references</a>
 
-                </embed>
-            </div>-->
+                <div style="position: relative; width: 327px;">
+                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+                            codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
+                            id=0 align="middle" width=100% height="auto">
+                        <param name="menu"      value="true" />
+                        <param name="quality"   value="high" />
+                        <param name="bgcolor"   value="#FFFFFF" />
+                        <param name="wmode"     value="transparent" />
+                        <param name="controls"  value="true"/>
+                        <param name=movie value="videos/.my-mp4.swf">
+                        <param name=allowfullscreen value=true>
+                        <param name=flashvars value="videos/my-mp4.swf">
+                        <embed src="videos/my-mp4.swf"
+                               wmode="transparent"
+                               play="false"
+                               menu="true"
+                               quality="high"
+                               bgcolor="black"
+                               width="100%" height="auto"
+                               name="player"
+                               align="middle"
+                               allowScriptAccess="sameDomain"
+                               type="application/x-shockwave-flash"
+                               pluginspage="http://www.macromedia.com/go/getflashplayer" >
+                    </object>
 
+
+                    <object type="application/x-shockwave-flash" height="auto" width="100%">
+                        <!-- link to the video-->
+                        <param name="movie" value="videos/my-mp4.swf"/>
+
+                        <!-- Sets the Window Mode property of the see documentation-->
+                        <param name="wmode" value="opaque"/>
+
+                        <!-- play the video automatically ?-->
+                        <param name="play" value="false"/>
+
+                        <!-- Should the video restart once it is over? -->
+                        <param name="loop " value="false"/>
+
+                        <!-- should playback controls be displayed? -->
+                        <param name="menu  " value="true"/>
+
+                        <!-- Trade off between performance and video quality-->
+                        <param name="quality" value="best"/>
+
+                        <!-- Should the Flash Player be able to occupy the whole screen-->
+                        <param name="allowFullScreen " value="true"/>
+                    </object>
+                </div>
+
+                <div id="display"></div>
+            </div>
             <!-- Quicktime-->
+            <!--
             <div id="quicktime-video" class="video-frame">
                 <h2>Playing a video using QuickTime Player</h2>
                 <!-- <object width="560" height="auto" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
@@ -110,22 +227,22 @@
                            autoplay="false" controller="true"
                            pluginspage="http://www.apple.com/quicktime/download/">
                     </embed>
-                </object>-->
+                </object>
 
                 <object width="320" height="240" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
                     <param name="controls" value="ImageWindow" />
                     <param name="autostart" value="true" />
                     <param name="src" value="my-mp4.mp4" />
-                    <!--
                     <embed src="my-mp4.mp4" width="560" height="auto"
                            autoplay="false" controller="true"
                            pluginspage="http://www.apple.com/quicktime/download/">
                     </embed>
-                    -->
                 </object>
-
             </div>
+            -->
+
             <!-- Windows Media-->
+            <!--
             <div id="wmp-video" class="video-frame">
                 <h2>Windows Media Player</h2>
                 <object width="560" height="315" url="my-mp4.mp4" data="/my-mp4.mp4">
@@ -135,7 +252,7 @@
                     <param name="autosize" value="false" />
                     <param name="playcount" value="false" />
                     <param name="uiMode" value="full"/>
-                    <!--<embed src="my-mp4.mp4"
+                    <embed src="my-mp4.mp4"
                            autostart="false"
                            showcontrols="false"
                            type="application/x-mplayer2"
@@ -144,15 +261,17 @@
                            pluginspage="https://www.microsoft.com/Windows/MediaPlayer/"
                            width="560"
                            height="315">
-                    </embed>-->
+                    </embed>
                 </object>
             </div>
+            -->
 
+            <!-- Other -->
+            <!--
             <div id="other-video" class="video-frame">
                 <h2>Vimeo</h2>
-
             </div>
-
+            -->
         </div>
     </body>
 </html>

@@ -1,3 +1,4 @@
+#Uninstall Freemake Video Converter
 Possibilities of displaying moving pictures in HTML5 and their use, including limitations to Adobe Flash and other video display  
 formats
 In the previous chapter, I have given some methods of how a video can be embedded in a website.
