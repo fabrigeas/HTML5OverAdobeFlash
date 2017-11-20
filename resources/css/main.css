@@ -29,3 +29,22 @@ embed{
 h2{
     color: white;
 }
+
+.player-controls{
+    width: 100%;
+    box-shadow: 0 0 10px 0 grey;
+    background: transparent;
+}
+
+.fa{
+    cursor: pointer;
+    padding:0.5rem;
+    background: transparent;
+    color: white;
+}
+
+.fa:hover{
+    background: gray;
+    color: white;
+    opacity: 0.5;
+}

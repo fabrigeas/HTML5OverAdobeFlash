@@ -18,66 +18,44 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-
-
     </head>
     <script>
-        function showSWF(urlString, elementID){
-            var displayContainer = document.getElementById(elementID);
-            var flash = createSWFObject(urlString, 'opaque', 650, 650);
-            displayContainer.appendChild(flash);
-        }
-        function createSWFObject(urlString, wmodeString, width, height){
-            var SWFObject = document.createElement("object");
-            SWFObject.setAttribute("type","application/x-shockwave-flash");
-            SWFObject.setAttribute("width","100%");
-            SWFObject.setAttribute("height","100%");
-
-            var movieParam = document.createElement("param");
-            movieParam.setAttribute("name","movie");
-            movieParam.setAttribute("value",urlString);
-            SWFObject.appendChild(movieParam);
-
-            var wmodeParam = document.createElement("param");
-            wmodeParam.setAttribute("name","wmode");
-            wmodeParam.setAttribute("value",wmodeString);
-            SWFObject.appendChild(wmodeParam);
-            return SWFObject;
-        }
         $(function () {
-            //showSWF("videos/my-mp4.swf","display")
-            //showSWF2("videos/my-mp4.swf","display")
+            //createSWFObject("videos/my-mp4.swf","display")
         });
 
-        var imageLoader;
 
-        function showSWF2(urlString, elementID){
-            var displayContainer = document.getElementById(elementID);
-            imageLoader = createSWFObject(urlString,650,650);
-            displayContainer.appendChild(imageLoader);
-        }
 
-        function createSWFObject2(urlString, width, height){
+        function createSWFObject(sFilePath, sTagId){
+            var oSWFObject,
+                oMovieParam,
+                flashVars,
+                oWModeParam;
 
-            var SWFObject = document.createElement("object");
-            SWFObject.setAttribute("type","application/x-shockwave-flash");
-            SWFObject.setAttribute("width","100%");
-            SWFObject.setAttribute("height","100%");
+            oSWFObject  = document.createElement("object");
+            oMovieParam = document.createElement("param");
+            flashVars   = document.createElement("param");
+            oWModeParam = document.createElement("param");
 
-            var movieParam = document.createElement("param");
-            movieParam.setAttribute("name","movie");
-            movieParam.setAttribute("value",urlString);
-            SWFObject.appendChild(movieParam);
+            oSWFObject.setAttribute("type","application/x-shockwave-flash");
+            oSWFObject.setAttribute("width","100%");
+            //oSWFObject.setAttribute("height","100%");
 
-            var flashVars = document.createElement("param");
+            oMovieParam.setAttribute("name","movie");
+            oMovieParam.setAttribute("value",sFilePath);
+            oSWFObject.appendChild(oMovieParam);
+
             flashVars.setAttribute("name","FlashVars");
+            flashVars.setAttribute("value","images/a.png");
+            oSWFObject.appendChild(flashVars);
 
-            //Load the asset inside the SWF content.
-            flashVars.setAttribute("value","imgPath=air.jpg");
-            SWFObject.appendChild(flashVars);
+            oWModeParam.setAttribute("name","wmode");
+            oWModeParam.setAttribute("value",sTagId);
+            oSWFObject.appendChild(oWModeParam);
 
-            return SWFObject;
+            document.getElementById(sTagId).appendChild(oSWFObject);
         }
+
     </script>
     <body>
 
@@ -161,7 +139,7 @@
                 <a href="https://helpx.adobe.com/flash/kb/flash-object-embed-tag-attributes.html" target="_blank"> references</a>
 
                 <div style="position: relative; width: 327px;">
-                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+                   <!-- <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
                             codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
                             id=0 align="middle" width=100% height="auto">
                         <param name="menu"      value="true" />
@@ -184,34 +162,36 @@
                                allowScriptAccess="sameDomain"
                                type="application/x-shockwave-flash"
                                pluginspage="http://www.macromedia.com/go/getflashplayer" >
-                    </object>
-
-
-                    <object type="application/x-shockwave-flash" height="auto" width="100%">
-                        <!-- link to the video-->
+                    </object> -->
+                    <object id="adobe-flash-player-without-embed" type="application/x-shockwave-flash" height="auto" width="100%">
                         <param name="movie" value="videos/my-mp4.swf"/>
-
-                        <!-- Sets the Window Mode property of the see documentation-->
                         <param name="wmode" value="opaque"/>
-
-                        <!-- play the video automatically ?-->
                         <param name="play" value="false"/>
-
-                        <!-- Should the video restart once it is over? -->
                         <param name="loop " value="false"/>
-
-                        <!-- should playback controls be displayed? -->
                         <param name="menu  " value="true"/>
-
-                        <!-- Trade off between performance and video quality-->
                         <param name="quality" value="best"/>
-
-                        <!-- Should the Flash Player be able to occupy the whole screen-->
                         <param name="allowFullScreen " value="true"/>
                     </object>
+                    <div class='player-controls'>
+                        <i class='fa fa-play' aria-hidden='true' title='play' onclick='onFlashPlay(this)'></i>
+                        <i class='fa fa-pause' aria-hidden='true' title='pause' onclick='onFlashPause(this)'></i>
+                        <i class='fa fa-stop' aria-hidden='true' title='stop' onclick='onFlashStop(this)'></i>
+                        <i class='fa fa-backward' aria-hidden='true' title='rewind 5 seconds' onclick='onFlashJump(this,-5)'></i>
+                        <i class='fa fa-forward' aria-hidden='true' title='forward 5 seconds' onclick='onFlashJump(this,5)'></i>
+                        <i class='fa fa-volume-off' aria-hidden='true' title='mute' onclick='onFlashMute(this)'></i>
+                    </div>
                 </div>
 
-                <div id="display"></div>
+                <div id="display" class="video-frame" style="display:none">
+                    <div class='player-controls'>
+                        <i class='fa fa-play' aria-hidden='true' title='play' onclick='onFlashPlay(this)'></i>
+                        <i class='fa fa-pause' aria-hidden='true' title='pause' onclick='onFlashPause(this)'></i>
+                        <i class='fa fa-stop' aria-hidden='true' title='stop' onclick='onFlashStop(this)'></i>
+                        <i class='fa fa-backward' aria-hidden='true' title='rewind 5 seconds' onclick='onFlashJump(this,-5)'></i>
+                        <i class='fa fa-forward' aria-hidden='true' title='forward 5 seconds' onclick='onFlashJump(this,5)'></i>
+                        <i class='fa fa-volume-off' aria-hidden='true' title='mute' onclick='onFlashMute(this)'></i>
+                    </div>
+                </div>
             </div>
             <!-- Quicktime-->
             <!--
