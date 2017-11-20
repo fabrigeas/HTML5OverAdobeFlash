@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -58,7 +58,12 @@
 
     </script>
     <body>
-
+    <article>,
+        <header> </header>,
+        <footer> </footer>,
+        <aside> </aside>,
+        <nav> </nav>
+        <figure> </figure>
     <!-- Facebook video -->
         <div class="content" id="home">
 
@@ -121,18 +126,32 @@
                 </iframe>
             </div>
             -->
-
+<video></video>
             <!-- HTML5 -->
-            <!--
             <div id="html5-video" class="video-frame">
                 <h2>Video embedded using HTML5 method</h2>
-                <video width="500" controls>
-                    <source src="mov_bbb.mp4" type="video/ogg">
-                    <source src="my-mp4.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
+                <video id="html5-video-player"
+                       controls
+                       autoplay
+                       loop
+                       muted
+                       preload="none"
+                       poster="images/icon.jpg"
+                >
+                    <source src="videos/my-mp4.mp4" type="video/mp4">
+                    <source src="videos/mov_bbb.webm" type="video/webm">
+                    This is the fallback text, incase the browser doesn't support HTML5. eg
+                    Your browser does not support the video tag.
                 </video>
+                <div class='html5-custom-player-controls'>
+                    <i class='fa fa-play' aria-hidden='true' title='play' onclick='onHtml5PlayerPlay(this)'></i>
+                    <i class='fa fa-pause' aria-hidden='true' title='pause' onclick='onHtml5PlayerPause(this)'></i>
+                    <i class='fa fa-stop' aria-hidden='true' title='stop' onclick='onHtml5PlayerStop(this)'></i>
+                    <i class='fa fa-backward' aria-hidden='true' title='rewind 5 seconds' onclick='onHtml5PlayerJump(this,-5)'></i>
+                    <i class='fa fa-forward' aria-hidden='true' title='forward 5 seconds' onclick='onHtml5PlayerJump(this,5)'></i>
+                    <i class='fa fa-volume-off' aria-hidden='true' title='mute' onclick='onHtml5PlayerMute(this)'></i>
+                </div>
             </div>
-            -->
 
             <!-- Adobe Flash-->
             <div id="flash-video" class="video-frame">
