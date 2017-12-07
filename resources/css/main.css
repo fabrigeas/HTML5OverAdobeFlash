@@ -18,9 +18,9 @@ div.content{
     padding:1em;
 }
 
-.video-frame{
+section{
     padding:2rem;
-    background: red;
+    background: #167ac6;
     margin:2rem;
 }
 embed{
@@ -47,4 +47,8 @@ h2{
     background: gray;
     color: white;
     opacity: 0.5;
+}
+
+figcaption{
+    color: white;
 }
