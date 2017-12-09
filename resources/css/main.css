@@ -21,6 +21,7 @@ div.content{
 section{
     padding:2rem;
     background: #167ac6;
+    background: red;
     margin:2rem;
 }
 embed{
