@@ -69,117 +69,124 @@
         <!--<div class="content" id="home">-->
         <!--</div>-->
 
-        <!--<section id="method-embed">-->
-            <!--<h2>HTML Embed tag</h2>-->
-            <!--<figure>-->
-                <!--<embed src="videos/my-mp4.mp4"-->
-                       <!--width="560"-->
-                       <!--height="316"-->
-                       <!--controller="true">-->
-                    <!--<figcaption>-->
-                        <!--&lt;embed src="videos/my-mp4.mp4"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width="560"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height="316"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;controller="true"&gt;<br>-->
-                    <!--</figcaption>-->
-            <!--</figure>-->
-        <!--</section>-->
+        <section id="method-embed">
+            <h2>HTML Embed tag</h2>
+            <figure>
+                <embed src="videos/mp4.mp4"
+                       width="560"
+                       height="316"
+                       controls="false">
+                    <figcaption>
+                    <pre>
+                        &lt;embed src="videos/mp4.mp4"
+                               width="560"
+                               height="316"&gt;
+                    </pre>
+                    </figcaption>
+            </figure>
+        </section>
 
-        <!--<section id="method-youtube">-->
-            <!--<h2>YouTube Video</h2>-->
-            <!--<figure>-->
-                <!--<iframe src="https://www.youtube.com/embed/_15BLqvm8cs"-->
-                        <!--width="560"-->
-                        <!--height="315"-->
-                        <!--frameborder="0"-->
-                        <!--gesture="media"-->
-                        <!--allowfullscreen>-->
-                <!--</iframe>-->
+        <section id="method-youtube">
+            <h2>YouTube Video</h2>
+            <figure>
+                <iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
+                        width="560"
+                        height="315"
+                        frameborder="0"
+                        gesture="media"
+                        allowfullscreen>
+                </iframe>
 
-                <!--<figcaption>-->
+                <figcaption>
+                <pre>
+                &lt;iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
+                        width="560"
+                        height="315"
+                        frameborder="0"
+                        gesture="media"
+                        allowfullscreen&gt;
+                &lt;/iframe&gt;
+                </pre>
+                </figcaption>
+            </figure>
+        </section>
 
-                    <!--&lt;iframe src="https://www.youtube.com/embed/_15BLqvm8cs"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width="500"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height="auto"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frameborder="0"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gesture="media"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allowfullscreen&gt;<br>-->
-                    <!--&lt;/iframe&gt;<br>-->
+        <section id="method-facebook">
+            <h2>Facebook Video</h2>
+            <figure>
+                <object width="560" height="315" >
+                    <param name="allowfullscreen" value="true" />
+                    <param name="allowscriptaccess" value="always" />
+                    <param name="movie" value="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F" />
+                    <embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"
+                           type="application/x-shockwave-flash"
+                           allowscriptaccess="always"
+                           allowfullscreen="true"
+                           width="500"
+                           height="auto">
+                </object>
+                <figcaption>
+                    <pre>
+                    &lt;object width="560" height="315" &gt;
+                        &lt;param name="allowfullscreen" value="true" /&gt;
+                        &lt;param name="allowscriptaccess" value="always" /&gt;
+                        &lt;param name="movie" value="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F" /&gt;
+                        &lt;embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"
+                           type="application/x-shockwave-flash"
+                           allowscriptaccess="always"
+                           allowfullscreen="true"
+                           width="500"
+                           height="auto"&gt;
+                    &lt;/object&gt;
+                    </pre>
+                </figcaption>
+            </figure>
+        </section>
 
-                <!--</figcaption>-->
-            <!--</figure>-->
-        <!--</section>-->
+        <section id="method-quicktime">
+            <h2>QuickTime Video</h2>
+            <figure>
+                <object width="560" height="315" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
+                    <param name="controls" value="ImageWindow" />
+                    <param name="autostart" value="false" />
+                    <param name="play" value="false" />
+                    <param name="start" value="false" />
+                    <param name="src" value="my-mp4.mp4" />
 
-        <!--<section id="method-facebook">-->
-            <!--<h2>Facebook Video</h2>-->
-            <!--<figure>-->
-                <!--<object width="560" height="315" >-->
-                    <!--<param name="allowfullscreen" value="true" />-->
-                    <!--<param name="allowscriptaccess" value="always" />-->
-                    <!--<param name="movie" value="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F" />-->
-                    <!--<embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"-->
-                           <!--type="application/x-shockwave-flash"-->
-                           <!--allowscriptaccess="always"-->
-                           <!--allowfullscreen="true"-->
-                           <!--width="500"-->
-                           <!--height="auto">-->
-                <!--</object>-->
-                <!--<figcaption>-->
-                        <!--<p>This video has been embedded using the following code</p>-->
-                        <!--&lt;object width="560" height="315" /&gt;<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;param name="allowfullscreen" value="true" /&gt;<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;param name="allowscriptaccess" value="always" /&gt;<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;param name="movie" value="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F" /&gt;<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="application/x-shockwave-flash"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allowscriptaccess="always"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allowfullscreen="true"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width="500"<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height="auto"/&gt;<br>-->
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/embed/&gt;<br>-->
-                        <!--&lt;/object/&gt;<br>-->
-                <!--</figcaption>-->
-            <!--</figure>-->
-        <!--</section>-->
+                    <embed src="videos/mp4.mp4"
+                           width="560"
+                           height="auto"
+                           autoplay="false"
+                           controller="true"
+                           play="false"
+                           start="false"
+                           type="application/video/quicktime"
+                           pluginspage="http://www.apple.com/quicktime/download/">
+                </object>
 
-        <!--<section id="method-quicktime">-->
-            <!--<h2>QuickTime Video</h2>-->
-            <!--<figure>-->
-                <!--<object width="560" height="315" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">-->
-                    <!--<param name="src" value="my-mp4.mp4">-->
-                    <!--<param name="autoplay" value="false">-->
-                    <!--<param name="controller" value="false">-->
+                <figcaption>
+                    <pre>
+                    &lt;object width="560" height="315" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA"&gt;
+                    &lt;param name="controls" value="ImageWindow" /&gt;
+                    &lt;param name="autostart" value="false" /&gt;
+                    &lt;param name="play" value="false" /&gt;
+                    &lt;param name="start" value="false" /&gt;
+                    &lt;param name="src" value="my-mp4.mp4" /&gt;
 
-                    <!--<embed src="videos/my-mp4.mp4" width="560" height="auto"-->
-                           <!--autoplay="false" controller="true"-->
-                           <!--pluginspage="http://www.apple.com/quicktime/download/">-->
-                <!--</object>-->
-
-                <!--<object width="560" height="315" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">-->
-                    <!--<param name="controls" value="ImageWindow" />-->
-                    <!--<param name="autostart" value="false" />-->
-                    <!--<param name="play" value="false" />-->
-                    <!--<param name="src" value="my-mp4.mp4" />-->
-                    <!--&lt;!&ndash;<embed src="videos/my-mp4.mp4" width="560" height="auto"-->
-                           <!--autoplay="false" controller="true" play="false" start="false"-->
-                           <!--pluginspage="http://www.apple.com/quicktime/download/">-->
-                    <!--</embed>&ndash;&gt;-->
-                <!--</object>-->
-
-                <!--<figcaption>-->
-                    <!--&lt;object width="560" height="auto" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab"&gt;<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;param name="src" value="my-mp4.mp4"&gt;<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;param name="autoplay" value="false"&gt;<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;param name="controller" value="false"&gt;<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;embed src="videos/my-mp4.mp4"<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width="560" height="auto"<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;autoplay="false" controller="true"<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pluginspage="http://www.apple.com/quicktime/download/"&gt;<br>-->
-                    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/embed&gt;<br>-->
-                    <!--&lt;/object&gt;<br>-->
-                <!--</figcaption>-->
-            <!--</figure>-->
-        <!--</section>-->
+                    &lt;embed src="videos/mp4.mp4"
+                           width="560"
+                           height="auto"
+                           autoplay="false"
+                           controller="true"
+                           play="false"
+                           start="false"
+                           type="application/video/quicktime"
+                           pluginspage="http://www.apple.com/quicktime/download/"&gt;
+                &lt;/object&gt;
+                    </pre>
+                </figcaption>
+            </figure>
+        </section>
 
         <section id="method-mediaplayer">
             <h2>Windows Media Player</h2>
