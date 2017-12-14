@@ -1,6 +1,79 @@
-(Ian. Wooldridge 2002, S. 175).
-(Ian et al, 2009)
-HTML 5.1 2nd Edition
+-----------------------------------------------------------------------------------------------------------------------------------
+# Websites
 
-MDN Web Docs - Web Workers API Mozilla - Using Web Workers
-https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+Last name, First initial (Year published). Page title. [online] Website name. Available at: URL [Accessed Day Mo. Year].
+When no author is listed, use the following structure:
+
+Website name, (Year published). Page title. [online] Available at: URL [Accessed Day Mo. Year].
+Example:
+Messer, L. (2015). 'Fancy Nancy' Optioned by Disney Junior. [online] ABC News. Available at: http://abcnews.go.com/Entertainment/fancy-nancy-optioned-disney-junior-2017/story?id=29942496#.VRWbWJwmbs0.twitter [Accessed 31 Mar. 2015].
+Mms.com, (2015). M&M'S Official Website. [online] Available at: http://www.mms.com/ [Accessed 20 Apr. 2015].
+
+---------------------------------------------------------------------------------------------------------------------
+# Journal Articles Found on a Database or on a Website
+
+Last name, First initial. (Year published). Article Title. Journal, [online] Volume(Issue), pages. Available at: URL [Accessed Day Mo. Year].
+Example:
+Raina, S. (2015). Establishing Correlation Between Genetics and Nonresponse. Journal of Postgraduate Medicine, [online] Volume 61(2), p. 148. Available at: http://www.proquest.com/products-services/ProQuest-Research-Library.html [Accessed 8 Apr. 2015].
+
+--------------------------------------------------------------------------------------------------------------------------
+E-Books/PDF
+
+Last name, First initial. (Year published). Title. Edition. [format] City: Publisher, page(s). Available at: URL [Accessed Day Mo. Year].
+Zusack, M. (2015). The Book Thief. 1st ed. [ebook] New York: Knopf. Available at: http://ebooks.nypl.org/ [Accessed 20 Apr. 2015].
+Robin, J. (2014). A handbook for professional learning: research, resources, and strategies for implementation. 1st ed. [pdf] New York: NYC Department of Education. Available at http://schools.nyc.gov/ [Accessed 14 Apr. 2015].
+------------------------------------------------------------------------------------------------------------------------------
+# Blogs
+Last name, First initial. (Year published). Post title. [Blog] Blog name. Available at: URL [Accessed Day Mo. Year].
+Example:
+Cohen, M. (2013). Re-election Is Likely for McConnell, but Not Guaranteed. [Blog] FiveThirtyEight. Available at: http://fivethirtyeight.blogs.nytimes.com/2013/07/01/re-election-is-likely-for-mcconnell-but-not-guaranteed/ [Accessed 4 Apr. 2015].
+------------------------------------------------------------------------------------------------------------------------------------------
+# Presentations and Lectures
+Last name, First initial. (Year) Presentation Title.
+Example:
+Valenza, J. (2014). Librarians and Social Capital.
+Don’t forget, Cite This For Me allows you to generate Harvard reference citations for presentations and lectures quickly and easily.
+---------------------------------------------------------------------------------------------------------------------------------------
+in-text
+# 1 author
+(Firstname, year)
+(Fitzgerald, 2004).
+
+# 2,3 authors
+(Lazzari and Schleiser, 2011).
+(Bardes, Shelley and Schmidt, 2011).
+
+# >=4
+(Potter et al., 2013).
+
+# corporate authors
+(Name of organization, 2014).
+(Dermatology Foundation, 2014).
+
+# no author
+(title of article, 2014).
+(Lost Spaces, 2014).
+
+# no date
+(title only without date)
+(Montalvo)
+
+# author mentioned in text
+Name of the author was here ... suggests that ...(2004).
+
+
+
+
+
+
+
+
+
+
+
+The <EMBED> tag allows media file types other than those directly supported by the browser to be handled with an external application or plugin. In this case, the external application is QuickTime Player and the plugin is the QuickTime Plugin.
+
+
+
+
+

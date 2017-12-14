@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="219edc50-34e0-4107-b640-e667bed69bed" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Bachelor-thesis-.Möglichkeiten der Anzeige von bewegten Bildern in HTML5 und deren Einsatz inklusive Abgrenzung zu Adobe Flash und anderen Video-Anzeigeformen.doc" afterPath="$PROJECT_DIR$/Bachelor-thesis-.Möglichkeiten der Anzeige von bewegten Bildern in HTML5 und deren Einsatz inklusive Abgrenzung zu Adobe Flash und anderen Video-Anzeigeformen.doc" />
-      <change beforePath="$PROJECT_DIR$/Bachelor-thesis-.Möglichkeiten der Anzeige von bewegten Bildern in HTML5 und deren Einsatz inklusive Abgrenzung zu Adobe Flash und anderen Video-Anzeigeformen.pdf" afterPath="$PROJECT_DIR$/Bachelor-thesis-.Möglichkeiten der Anzeige von bewegten Bildern in HTML5 und deren Einsatz inklusive Abgrenzung zu Adobe Flash und anderen Video-Anzeigeformen.pdf" />
-      <change beforePath="$PROJECT_DIR$/resources/images/facebook-embedd.PNG" afterPath="$PROJECT_DIR$/resources/images/facebook-embedd.PNG" />
-      <change beforePath="$PROJECT_DIR$/resources/images/quicktime-embed.PNG" afterPath="$PROJECT_DIR$/resources/images/quicktime-embed.PNG" />
-      <change beforePath="$PROJECT_DIR$/resources/images/using-html5.png" afterPath="$PROJECT_DIR$/resources/images/using-html5.png" />
-      <change beforePath="$PROJECT_DIR$/resources/images/wmp-output-.png" afterPath="$PROJECT_DIR$/resources/images/wmp-output-.png" />
-      <change beforePath="$PROJECT_DIR$/resources/images/youtube-embed.PNG" afterPath="$PROJECT_DIR$/resources/images/youtube-embed.PNG" />
-      <change beforePath="$PROJECT_DIR$/resources/index.html" afterPath="$PROJECT_DIR$/resources/index.html" />
-      <change beforePath="$PROJECT_DIR$/resources/temp.txt" afterPath="$PROJECT_DIR$/resources/temp.txt" />
-      <change beforePath="$PROJECT_DIR$/resources/videos/mp4 (3).mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/videos/mp4 (4).mp4" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +19,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="375">
               <caret line="262" column="74" lean-forward="false" selection-start-line="262" selection-start-column="74" selection-end-line="262" selection-end-column="74" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -279,7 +268,7 @@
       <workItem from="1512821537752" duration="48000" />
       <workItem from="1512999940136" duration="2967000" />
       <workItem from="1513009654133" duration="31000" />
-      <workItem from="1513243563383" duration="2467000" />
+      <workItem from="1513243563383" duration="3090000" />
     </task>
     <task id="LOCAL-00001" summary="swf introduction to:">
       <created>1510752462169</created>
@@ -316,14 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512819571955</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="more references">
+      <created>1513263610467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513263610467</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56637000" />
+    <option name="totallyTimeSpent" value="57260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28477305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -378,7 +374,8 @@
     <MESSAGE value="ReadMe" />
     <MESSAGE value="website" />
     <MESSAGE value="refactor 1-7" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor 1-7" />
+    <MESSAGE value="more references" />
+    <option name="LAST_COMMIT_MESSAGE" value="more references" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2681,7 +2678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="375">
           <caret line="262" column="74" lean-forward="false" selection-start-line="262" selection-start-column="74" selection-end-line="262" selection-end-column="74" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
