@@ -1,1 +1,6 @@
-Adobe Corporate Communications (July 25, 2017) Flash & The Future of Interactive Content. Retrieved from https://theblog.adobe.com/adobe-flash-update/
+(Ian. Wooldridge 2002, S. 175).
+(Ian et al, 2009)
+HTML 5.1 2nd Edition
+
+MDN Web Docs - Web Workers API Mozilla - Using Web Workers
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
