@@ -71,8 +71,7 @@ Name of the author was here ... suggests that ...(2004).
 
 
 
-The <EMBED> tag allows media file types other than those directly supported by the browser to be handled with an external application or plugin. In this case, the external application is QuickTime Player and the plugin is the QuickTime Plugin.
-
+(Facebook Developers). Facebook Developers. Embedded Video & Live Video Player. [online]. Available at: https://developers.facebook.com/docs/plugins/embedded-video-player [Accessed 15 Dec. 2017]
 
 
 
