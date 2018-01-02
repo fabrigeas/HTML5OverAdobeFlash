@@ -18,16 +18,19 @@ div.content{
     padding:1em;
 }
 
+article > h1{
+    color: black;
+    text-align: center;
+}
 section{
     padding:2rem;
-    background: #167ac6;
     background: red;
     margin:2rem;
 }
 embed{
     margin: auto;
 }
-h2{
+h2,p{
     color: white;
 }
 

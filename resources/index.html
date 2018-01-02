@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Bsc Thesis Displaying videos using HTML5</title>
+        <title>Displaying videos - HTML5 vs Adobe Flash</title>
         <meta name="author" content="Fabrice,Feugang Kemegni">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="images/icon.jpg">
@@ -19,58 +19,62 @@
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     </head>
+
+    <body>
     <script>
         $(function () {
             //createSWFObject("videos/my-mp4.swf","display")
         });
 
-/*        /!**
-         * This function is used to embed a video pragmatically.
-         * It takes a sFilePath ie path to a video file,
-         * sTagId ie id of HTML Element on whci to create video
-         *
-         * @param sFilePath
-         * @param sTagId
-         *!/
-        function createSWFObject(sFilePath, sTagId){
-            var oSWFObject,
-                oMovieParam,
-                flashVars,
-                oWModeParam;
+        /*        /!**
+                 * This function is used to embed a video pragmatically.
+                 * It takes a sFilePath ie path to a video file,
+                 * sTagId ie id of HTML Element on whci to create video
+                 *
+                 * @param sFilePath
+                 * @param sTagId
+                 *!/
+                function createSWFObject(sFilePath, sTagId){
+                    var oSWFObject,
+                        oMovieParam,
+                        flashVars,
+                        oWModeParam;
 
-            oSWFObject  = document.createElement("object");
-            oMovieParam = document.createElement("param");
-            flashVars   = document.createElement("param");
-            oWModeParam = document.createElement("param");
+                    oSWFObject  = document.createElement("object");
+                    oMovieParam = document.createElement("param");
+                    flashVars   = document.createElement("param");
+                    oWModeParam = document.createElement("param");
 
-            oSWFObject.setAttribute("type","application/x-shockwave-flash");
-            oSWFObject.setAttribute("width","100%");
-            //oSWFObject.setAttribute("height","100%");
+                    oSWFObject.setAttribute("type","application/x-shockwave-flash");
+                    oSWFObject.setAttribute("width","100%");
+                    //oSWFObject.setAttribute("height","100%");
 
-            oMovieParam.setAttribute("name","movie");
-            oMovieParam.setAttribute("value",sFilePath);
-            oSWFObject.appendChild(oMovieParam);
+                    oMovieParam.setAttribute("name","movie");
+                    oMovieParam.setAttribute("value",sFilePath);
+                    oSWFObject.appendChild(oMovieParam);
 
-            flashVars.setAttribute("name","FlashVars");
-            flashVars.setAttribute("value","images/a.png");
-            oSWFObject.appendChild(flashVars);
+                    flashVars.setAttribute("name","FlashVars");
+                    flashVars.setAttribute("value","images/a.png");
+                    oSWFObject.appendChild(flashVars);
 
-            oWModeParam.setAttribute("name","wmode");
-            oWModeParam.setAttribute("value",sTagId);
-            oSWFObject.appendChild(oWModeParam);
+                    oWModeParam.setAttribute("name","wmode");
+                    oWModeParam.setAttribute("value",sTagId);
+                    oSWFObject.appendChild(oWModeParam);
 
-            document.getElementById(sTagId).appendChild(oSWFObject);
-        }*/
+                    document.getElementById(sTagId).appendChild(oSWFObject);
+                }*/
 
     </script>
-    <body>
     <article>
-    <!-- Facebook video -->
-        <!--<div class="content" id="home">-->
-        <!--</div>-->
+        <h1> Embedding Moving Images - Some Common methods</h1>
+        <section>
+            <p> Each of the videos below demonstrate the output of a mothod of embedding a vodeo.</p>
+            <p> Each video has a title that identifies the method that was used to embed the video.</p>
+            <p> Each video has a caption that shos the codesnippet, required to embed the video.</p>
+        </section>
 
         <section id="method-embed">
-            <h2>HTML Embed tag</h2>
+            <h2>HTML Embed Tag</h2>
             <figure>
                 <embed src="videos/mp4.mp4"
                        width="560"
@@ -78,9 +82,9 @@
                        controls="false">
                     <figcaption>
                     <pre>
-                        &lt;embed src="videos/mp4.mp4"
-                               width="560"
-                               height="316"&gt;
+&lt;embed src="videos/mp4.mp4"
+       width="560"
+       height="316"&gt;
                     </pre>
                     </figcaption>
             </figure>
@@ -99,13 +103,13 @@
 
                 <figcaption>
                 <pre>
-                &lt;iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
-                        width="560"
-                        height="315"
-                        frameborder="0"
-                        gesture="media"
-                        allowfullscreen&gt;
-                &lt;/iframe&gt;
+&lt;iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
+        width="560"
+        height="315"
+        frameborder="0"
+        gesture="media"
+        allowfullscreen&gt;
+&lt;/iframe&gt;
                 </pre>
                 </figcaption>
             </figure>
@@ -114,30 +118,26 @@
         <section id="method-facebook">
             <h2>Facebook Video</h2>
             <figure>
-                <object width="560" height="315" >
-                    <param name="allowfullscreen" value="true" />
-                    <param name="allowscriptaccess" value="always" />
-                    <param name="movie" value="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F" />
-                    <embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"
-                           type="application/x-shockwave-flash"
-                           allowscriptaccess="always"
-                           allowfullscreen="true"
-                           width="500"
-                           height="auto">
-                </object>
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyellowteethpage%2Fvideos%2F1468747389909130%2F&show_text=0&width=560"
+                        width="560" height="411"
+                        style="border:none;overflow:hidden"
+                        scrolling="no"
+                        frameborder="0"
+                        allowTransparency="true"
+                        allowFullScreen="true">
+                </iframe>
+
                 <figcaption>
                     <pre>
-                    &lt;object width="560" height="315" &gt;
-                        &lt;param name="allowfullscreen" value="true" /&gt;
-                        &lt;param name="allowscriptaccess" value="always" /&gt;
-                        &lt;param name="movie" value="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F" /&gt;
-                        &lt;embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSarahRayTV%2Fvideos%2F1263433353761368%2F"
-                           type="application/x-shockwave-flash"
-                           allowscriptaccess="always"
-                           allowfullscreen="true"
-                           width="500"
-                           height="auto"&gt;
-                    &lt;/object&gt;
+&lt;iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyellowteethpage%2Fvideos%2F1468747389909130%2F&show_text=0&width=560"
+        width="560" height="411"
+        style="border:none;overflow:hidden"
+        scrolling="no"
+        frameborder="0"
+        allowTransparency="true"
+        allowFullScreen="true"&gt;
+&lt;/iframe&gt;
+
                     </pre>
                 </figcaption>
             </figure>
@@ -145,6 +145,8 @@
 
         <section id="method-quicktime">
             <h2>QuickTime Video</h2>
+
+
             <figure>
                 <object width="560" height="315" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
                     <param name="controls" value="ImageWindow" />
@@ -223,25 +225,25 @@
                 </OBJECT>
                 <figcaption>
                     <pre>
-            &lt;OBJECT width="180" height="50"
-                    classid='CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95'
-                    codebase='http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=5,1,52,701'
-                    standby='Loading Microsoft Windows Media Player components...' type='application/x-oleobject'&gt;
-                &lt;param name='fileName' value="Stream URL or Full File Path Goes Here"&gt;
-                &lt;param name='animationatStart' value='true'&gt;
-                &lt;param name='transparentatStart' value='true'&gt;
-                &lt;param name='autoStart' value="false"&gt;
-                &lt;param name='showControls' value="true"&gt;
-                &lt;param name ="ShowAudioControls"value="true"&gt;
-                &lt;param name="ShowStatusBar" value="true"&gt;
-                &lt;param name='loop' value="false"&gt;
-                &lt;EMBED type='application/x-mplayer2'
-                       pluginspage='http://microsoft.com/windows/mediaplayer/en/download/'
-                       name='mediaPlayer' displaysize='4' autosize='-1'
-                       bgcolor='darkblue' showcontrols="true" showtracker='-1'
-                       showdisplay='0' showstatusbar='-1' videoborder3d='-1' width="420" height="380"
-                       src="videos/wmv.wmv" autostart="true" designtimesp='5311' loop="false"&gt;
-            &lt;/OBJECT&gt;
+&lt;OBJECT width="180" height="50"
+        classid='CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95'
+        codebase='http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=5,1,52,701'
+        standby='Loading Microsoft Windows Media Player components...' type='application/x-oleobject'&gt;
+    &lt;param name='fileName' value="Stream URL or Full File Path Goes Here"&gt;
+    &lt;param name='animationatStart' value='true'&gt;
+    &lt;param name='transparentatStart' value='true'&gt;
+    &lt;param name='autoStart' value="false"&gt;
+    &lt;param name='showControls' value="true"&gt;
+    &lt;param name ="ShowAudioControls"value="true"&gt;
+    &lt;param name="ShowStatusBar" value="true"&gt;
+    &lt;param name='loop' value="false"&gt;
+    &lt;EMBED type='application/x-mplayer2'
+           pluginspage='http://microsoft.com/windows/mediaplayer/en/download/'
+           name='mediaPlayer' displaysize='4' autosize='-1'
+           bgcolor='darkblue' showcontrols="true" showtracker='-1'
+           showdisplay='0' showstatusbar='-1' videoborder3d='-1' width="420" height="380"
+           src="videos/wmv.wmv" autostart="true" designtimesp='5311' loop="false"&gt;
+&lt;/OBJECT&gt;
                     </pre>
                 </figcaption>
             </figure>
@@ -266,18 +268,18 @@
                 </video>
                 <figcaption>
                     <pre>
-                &lt;video poster="images/icon.jpg"
-                       controls
-                       autoplay
-                       loop
-                       muted
-                       preload="none"
-                       width="560" height="315"&gt;
-                    &lt;source src="videos/mp4.mp4" type="video/mp4"&gt;
-                    &lt;source src="videos/swf.swf" type="video/webm"&gt;
-                    This is the fallback text, in case the browser doesn't support HTML5. eg
-                    Your browser does not support the video tag.
-                &lt;/video&gt;
+&lt;video poster="images/icon.jpg"
+       controls
+       autoplay
+       loop
+       muted
+       preload="none"
+       width="560" height="315"&gt;
+    &lt;source src="videos/mp4.mp4" type="video/mp4"&gt;
+    &lt;source src="videos/swf.swf" type="video/webm"&gt;
+    This is the fallback text, in case the browser doesn't support HTML5. eg
+    Your browser does not support the video tag.
+&lt;/video&gt;
                     </pre>
                 </figcaption>
             </figure>
@@ -315,28 +317,28 @@
                 </div>
                 <figcaption>
                     <pre>
-                   &lt;object type="application/x-shockwave-flash" width="560" height="315"&gt;
-                       &lt;param name="movie" value="videos/swf.swf"/&gt;
-                       &lt;param name="wmode" value="opaque"/&gt;
-                       &lt;param name="play" value="false"/&gt;
-                       &lt;param name="loop " value="false"/&gt;
-                       &lt;param name="menu  " value="true"/&gt;
-                       &lt;param name="quality" value="best"/&gt;
-                       &lt;param name="allowFullScreen " value="true"/&gt;
-                   &lt;/object&gt;
-                    <hr> <h3>Using embed</h3> <hr>
-                   &lt;embed src="videos/swf.swf"
-                           wmode="transparent"
-                           play="false"
-                           menu="true"
-                           quality="high"
-                           bgcolor="black"
-                           width="100%" height="auto"
-                           name="player"
-                           align="middle"
-                           allowScriptAccess="sameDomain"
-                           type="application/x-shockwave-flash"
-                           pluginspage="http://www.macromedia.com/go/getflashplayer" &gt;
+&lt;object type="application/x-shockwave-flash" width="560" height="315"&gt;
+   &lt;param name="movie" value="videos/swf.swf"/&gt;
+   &lt;param name="wmode" value="opaque"/&gt;
+   &lt;param name="play" value="false"/&gt;
+   &lt;param name="loop " value="false"/&gt;
+   &lt;param name="menu  " value="true"/&gt;
+   &lt;param name="quality" value="best"/&gt;
+   &lt;param name="allowFullScreen " value="true"/&gt;
+&lt;/object&gt;
+<hr> <h3>Using embed</h3> <hr>
+&lt;embed src="videos/swf.swf"
+       wmode="transparent"
+       play="false"
+       menu="true"
+       quality="high"
+       bgcolor="black"
+       width="100%" height="auto"
+       name="player"
+       align="middle"
+       allowScriptAccess="sameDomain"
+       type="application/x-shockwave-flash"
+       pluginspage="http://www.macromedia.com/go/getflashplayer" &gt;
                     </pre>
                 </figcaption>
             </figure>
