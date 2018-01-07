@@ -66,11 +66,13 @@
 
     </script>
     <article>
-        <h1> Embedding Moving Images - Some Common methods</h1>
-        <section>
-            <p> Each of the videos below demonstrate the output of a mothod of embedding a vodeo.</p>
-            <p> Each video has a title that identifies the method that was used to embed the video.</p>
-            <p> Each video has a caption that shos the codesnippet, required to embed the video.</p>
+        <h1 style="font-size: xx-large; color: #625d5d;">Bachelor Thesis: Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods</h1>
+        <section id="header" >
+            <h2>Each of the videos below demonstrate the output of a mothod of embedding a vodeo.</h2>
+            <p style="font-size: medium"> Each video has a title that identifies the method that was used to embed the video.
+            Each video has a caption that shos the codesnippet, required to embed the video.</p>
+            <p>This website constitutes the software part of the thesis titled <strong>"Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods"</strong> . <br>
+            Below are some vidoes that demonstrate the outputs of various methods of embedding videos. </p>
         </section>
 
         <section id="method-embed">
@@ -81,6 +83,8 @@
                        height="316"
                        controls="false">
                     <figcaption>
+                        <p>Figure 1: Video embedded using the html tag.</p>
+                        <p>This method is straightforward and very simple. It is acheived with the code below, and the output can be seen from the video above.<br></p>
                     <pre>
 &lt;embed src="videos/mp4.mp4"
        width="560"
@@ -91,7 +95,7 @@
         </section>
 
         <section id="method-youtube">
-            <h2>YouTube Video</h2>
+            <h2>YouTube Video Integration</h2>
             <figure>
                 <iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
                         width="560"
@@ -102,6 +106,12 @@
                 </iframe>
 
                 <figcaption>
+                        <p>Figure 1: Video embedded using youtube intgration.</p>
+                        <p>This method requries a video available on youtube. <br>
+                            Right click on the playing video on Youtube, and choose 'copy embed code'<br>
+                            Paste the copied text into the webpage. <br>
+                            The code snippet below has been copied from Youtube video, and it is the url to the video.
+                        </p>
                 <pre>
 &lt;iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
         width="560"
@@ -128,6 +138,13 @@
                 </iframe>
 
                 <figcaption>
+                    <p>Figure 1: Video embedded using Facebook intgration.</p>
+                    <p>This method requries a video available on youtube. <br>
+                        To embed a Facebook video on a website,<br>
+                        While the video is playing on Facebook, Click on the the video's menu button, and choose 'embed'
+                        A dialog opens and you can copy the embed code, then paste it in your webpage.<br>
+                        Below is the embed code for the above video, copied from facebook. NB This video not be available anymore.
+                    </p>
                     <pre>
 &lt;iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyellowteethpage%2Fvideos%2F1468747389909130%2F&show_text=0&width=560"
         width="560" height="411"
@@ -267,6 +284,8 @@
                     Your browser does not support the video tag.
                 </video>
                 <figcaption>
+                        <p>Figure 1: Video embedded using the html tag.</p>
+                        <p>This method is straightforward and very simple. It is acheived with the code below, and the output can be seen from the video above.<br></p>
                     <pre>
 &lt;video poster="images/icon.jpg"
        controls

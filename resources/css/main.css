@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
     list-style-type: none;
+    color: darkblue;
+    font-size: large;
+    font-weight: bold;
 }
 html {
    height: 100%;
@@ -17,21 +20,35 @@ div.content{
     min-height:75%;
     padding:1em;
 }
-
+#header{
+    color: #625d5d;
+}
+#header *{
+    font-size: medium;
+    color: #625d5d;
+}
+strong{
+    font-weight: bold;
+    font-size: larger;
+}
+figcaption p{
+    font-size: small;
+    color: #1d1c29;
+}
 article > h1{
-    color: black;
+    color: #625d5d;;
     text-align: center;
 }
 section{
     padding:2rem;
-    background: red;
+    background: #9fa0a5;
     margin:2rem;
 }
 embed{
     margin: auto;
 }
 h2,p{
-    color: white;
+    font-size: large;
 }
 
 .player-controls{
