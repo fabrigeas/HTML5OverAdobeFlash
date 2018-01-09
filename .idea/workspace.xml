@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219edc50-34e0-4107-b640-e667bed69bed" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Bibliographic-Citations-APA-6th-Harvard-Feb14.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Embed Videos In Your Web Pages Using HTML5 _ WIRED.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Erstellung von Seminararbeiten.doc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Introduction-Chap1.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Possibilities of displaying moving pictures in HTML5 and their use, including limitations to Adobe Flash.pdf" afterPath="$PROJECT_DIR$/Possibilities of displaying moving pictures in HTML5 and their use, including limitations to Adobe Flash.pdf" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/bildverarbeitung/A0_Inhalt.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bildverarbeitung/A2_Bilder.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bildverarbeitung/Standardbilder.rar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bildverarbeitung/vid_lecture01fin.ppt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/citing-image.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/document.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/animated.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/core.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/icons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/larger.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/list.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/path.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/stacked.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/jquery-3.2.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/temp.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/bachelorfinal.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/thesispusch.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vid_lecture01fin.ppt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="532">
-                <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+              <first_editor relative-caret-position="294">
+                <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -253,7 +200,7 @@
       <workItem from="1514908383643" duration="2867000" />
       <workItem from="1515070521836" duration="4397000" />
       <workItem from="1515439347583" duration="599000" />
-      <workItem from="1515486279485" duration="10383000" />
+      <workItem from="1515486279485" duration="10749000" />
     </task>
     <task id="LOCAL-00001" summary="swf introduction to:">
       <created>1510752462169</created>
@@ -301,7 +248,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78498000" />
+    <option name="totallyTimeSpent" value="78864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1585,8 +1532,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="532">
-            <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <first_editor relative-caret-position="294">
+            <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor />

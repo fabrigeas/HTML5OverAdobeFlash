@@ -1,18 +1,18 @@
-#This is the Repository for the Project (bachelor Thesis) 
+#Bachelor Thesis 
         Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods
+        
         Bachelor Thesis.
         
         Fabrice, Feugang Kemegni
         
         Matriculation: 671704
         
-        Department: Applied Computer Science B.Sc.
+        Department: Applied Computer Science: Software Construction B.Sc.
         
         Hochschule Worms
         
         Supervisor: Prof. Dr. Bernd Ruhland.
-###[Created by: Fabrice, Feugang Kemegni](fabrigeas@gmail.com),
-##[Supervised by: Prof. Dr. Bernd Ruhland](ruhland@hs-worms.de)
+###[Supervised by: Prof. Dr. Bernd Ruhland](ruhland@hs-worms.de)
 #./resources
         In the folder /resources, you will find the accompanying website for the thesis,
         as well as all the resources required to run the website.
@@ -51,4 +51,4 @@
         I would like to dedicate this work to my Mother, Mama Christine, and my sisters Jenny, 
         Nelly, who are my sources of motivation at any time.          
         
-                            Fabrice, Feugang Kemegni.
+        Fabrice, Feugang Kemegni. Jan.2018
