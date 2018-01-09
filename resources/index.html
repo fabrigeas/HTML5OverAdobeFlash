@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <title>Displaying videos - HTML5 vs Adobe Flash</title>
         <meta name="author" content="Fabrice,Feugang Kemegni">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="date" content="2018-01-09T11:00:31+01:00">
+        <meta name="DCTERMS.date" content="2018-01-09T11:00:31+01:00">
         <link rel="icon" href="images/icon.jpg">
 
         <!-- main css file -->
@@ -66,14 +68,30 @@
 
     </script>
     <article>
-        <h1 style="font-size: xx-large; color: #625d5d;">Bachelor Thesis: Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods</h1>
-        <section id="header" >
-            <h2>Each of the videos below demonstrate the output of a mothod of embedding a vodeo.</h2>
-            <p style="font-size: medium"> Each video has a title that identifies the method that was used to embed the video.
-            Each video has a caption that shos the codesnippet, required to embed the video.</p>
-            <p>This website constitutes the software part of the thesis titled <strong>"Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods"</strong> . <br>
-            Below are some vidoes that demonstrate the outputs of various methods of embedding videos. </p>
-        </section>
+        <!--<h1 style="font-size: xx-large;">Bachelor Thesis: Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods</h1>-->
+        <div class="center">
+            Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods.<br>
+            Bachelor Thesis<br>
+            Fabrice, Feugang Kemegni<br>
+            Matriculation: 671704<br>
+            Department: Applied Computer Science: Software Construction B.S.c<br>
+            <a href="http://www.hs-worms.de/" target="_blank"> Hochschule worms </a><br>
+            Winter semester 2017/18<br>
+            Supervised by: <a href="http://www.hs-worms.de/fachbereiche/informatik/team/professoren/" target="_blank">Prof. Dr. Bernd Ruhland</a><br>
+        </div>
+        <div class="section" id="header" >
+            <p>
+            This website is the complementary software for my thesis titled as above.<br>
+            Below are some methods used to embed/display videos in websites.<br>
+            Each of the videos below demonstrate the output of a each method of embedding a video.<br>
+            Each video has a title that identifies the method that was used to embed it,<br>
+            followed by a caption that shows the minimal code snippet, required to embed the video.<br>
+            References are also included.
+            <p class="strong">NB! Open this website with Internet explorer, because some of the videos below require video players to be installed, and
+            because I have tested the website using Internet Explorer.
+            <p> Every piece of code in this document has been written by myself, following the documentation instructions provided by the reference websites all referenced with the code snippet.
+            </p>
+        </div>
 
         <section id="method-embed">
             <h2>HTML Embed Tag</h2>
@@ -81,10 +99,13 @@
                 <embed src="videos/mp4.mp4"
                        width="560"
                        height="316"
+                       start="off"
                        controls="false">
                     <figcaption>
-                        <p>Figure 1: Video embedded using the html tag.</p>
-                        <p>This method is straightforward and very simple. It is acheived with the code below, and the output can be seen from the video above.<br></p>
+                        <p>Figure 1: Video embedded using only the html embed tag.<br>
+                            <br>
+                            This method is straightforward and very simple. It is achieved with the code below, and the output can be seen in the video above.<br>
+                        </p>
                     <pre>
 &lt;embed src="videos/mp4.mp4"
        width="560"
@@ -106,11 +127,12 @@
                 </iframe>
 
                 <figcaption>
-                        <p>Figure 1: Video embedded using youtube intgration.</p>
-                        <p>This method requries a video available on youtube. <br>
-                            Right click on the playing video on Youtube, and choose 'copy embed code'<br>
-                            Paste the copied text into the webpage. <br>
-                            The code snippet below has been copied from Youtube video, and it is the url to the video.
+                        <p>Figure 2: Video embedded using youtube integration.<br>
+                            <br>
+                            This method requires the video to be available on youtube.<br>
+                            Right click on the playing video on Youtube, and choose 'copy embed code',<br>
+                            paste the copied code into the webpage.<br>
+                            The code snippet below has been copied from a Youtube video.
                         </p>
                 <pre>
 &lt;iframe src="https://www.youtube.com/embed/_15BLqvm8cs"
@@ -136,14 +158,16 @@
                         allowTransparency="true"
                         allowFullScreen="true">
                 </iframe>
-
                 <figcaption>
-                    <p>Figure 1: Video embedded using Facebook intgration.</p>
-                    <p>This method requries a video available on youtube. <br>
-                        To embed a Facebook video on a website,<br>
-                        While the video is playing on Facebook, Click on the the video's menu button, and choose 'embed'
-                        A dialog opens and you can copy the embed code, then paste it in your webpage.<br>
-                        Below is the embed code for the above video, copied from facebook. NB This video not be available anymore.
+                    <p>Figure 3: Video embedded using Facebook Integration.<br>
+                        <br>
+                        To integrate a Facebook video on a website,<br>
+                        while the video is playing on Facebook, Click on the the video's menu button, and choose 'embed'<br>
+                        a dialog opens and you can copy the embed code, then paste it in your webpage.<br>
+                        Below is the embed code for the above video, copied from facebook. NB This video may not be available anymore.<br>
+                        More information can be found here:
+                        <a href="https://developers.facebook.com/docs/plugins/embedded-video-player" target="_blank" title="Embedded Video & Live Video Player"> here </a>
+
                     </p>
                     <pre>
 &lt;iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyellowteethpage%2Fvideos%2F1468747389909130%2F&show_text=0&width=560"
@@ -162,8 +186,6 @@
 
         <section id="method-quicktime">
             <h2>QuickTime Video</h2>
-
-
             <figure>
                 <object width="560" height="315" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
                     <param name="controls" value="ImageWindow" />
@@ -184,24 +206,32 @@
                 </object>
 
                 <figcaption>
+                    <p>Figure 4: Video embedded using Apple QuickTime Player.<br>
+                        <br>
+                        To embed a video using the Apple QuickTime plugin, <br>
+                        you can either <br>
+                        a) download the plugin <a href="https://support.mozilla.org/en-US/kb/quicktime-plugin-play-audio-and-video#w_testing-quicktime"> here </a> and place the plugin in the website folder, or<br>
+                        b) add a link to the online plugin as an attribute to the object (This is the method used here.)<br>
+                        Below is the embed code for the above video. More information can be found here: <a href="https://support.mozilla.org/en-US/kb/quicktime-plugin-play-audio-and-video#w_testing-quicktime" target="_blank" title="Use the QuickTime plugin to play audio and video"> here.</a>
+                    </p>
                     <pre>
-                &lt;object width="560" height="315" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA"&gt;
-                    &lt;param name="controls" value="ImageWindow" /&gt;
-                    &lt;param name="autostart" value="false" /&gt;
-                    &lt;param name="play" value="false" /&gt;
-                    &lt;param name="start" value="false" /&gt;
-                    &lt;param name="src" value="videos/mov.mov" /&gt;
+&lt;object width="560" height="315" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA"&gt;
+    &lt;param name="controls" value="ImageWindow" /&gt;
+    &lt;param name="autostart" value="false" /&gt;
+    &lt;param name="play" value="false" /&gt;
+    &lt;param name="start" value="false" /&gt;
+    &lt;param name="src" value="videos/mov.mov" /&gt;
 
-                    &lt;embed src="videos/mov.mov"
-                           width="560"
-                           height="315"
-                           autoplay="false"
-                           controller="true"
-                           play="false"
-                           start="false"
-                           type="application/video/quicktime"
-                           pluginspage="http://www.apple.com/quicktime/download/"&gt;
-                &lt;/object&gt;
+    &lt;embed src="videos/mov.mov"
+           width="560"
+           height="315"
+           autoplay="false"
+           controller="true"
+           play="false"
+           start="false"
+           type="application/video/quicktime"
+           pluginspage="http://www.apple.com/quicktime/download/"&gt;
+&lt;/object&gt;
                     </pre>
                 </figcaption>
             </figure>
@@ -241,6 +271,16 @@
                            loop="false">
                 </OBJECT>
                 <figcaption>
+                    <p>Figure 5: Video embedded using Windows Media Player (plugin).<br>
+                        <br>
+                        This is typically used to embed videos of format .wma. <br>
+                        To embed videos using this method, you need to either: <br>
+                        a) download the Windows Media plugin and place it in the web-site folder
+                        <a href="https://windows-media-player-plugin.en.softonic.com/download" title="download Windows Media Player Plugin"> here </a> , or<br>
+                        b) reference the link of the player in the attributes of the embed tag (This is the method used here).<br>
+                        The snippet below shows the code required to embed the video file named wmv.wmv located in the website repository.<br>
+                        More information can be found here: <a href="http://www.mediacollege.com/video/format/windows-media/streaming/embed.html" target="_blank" title="How to Embed Windows Media Files"> here.</a>
+                    </p>
                     <pre>
 &lt;OBJECT width="180" height="50"
         classid='CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95'
@@ -271,21 +311,24 @@
             <figure>
                 <video id="html5-video-player"
                        controls
-                       autoplay
                        loop
                        muted
                        preload="none"
                        poster="images/icon.jpg"
-                       width="560" height="315"
-                >
+                       width="560" height="315" >
                     <source src="videos/mp4.mp4" type="video/mp4">
                     <!--<source src="videos/swf.swf" type="video/webm">-->
                     This is the fallback text, in case the browser doesn't support HTML5. eg
                     Your browser does not support the video tag.
                 </video>
                 <figcaption>
-                        <p>Figure 1: Video embedded using the html tag.</p>
-                        <p>This method is straightforward and very simple. It is acheived with the code below, and the output can be seen from the video above.<br></p>
+                    <p>Figure 5: Video embedded using HTML5.<br>
+                        <br>
+                        HTML5 is the most straightforward method. <br>
+                        The new &lt;video&gt; tag in HTML5 mark-up allows developers to add videos into a webpages without any special plugins.<br>
+                        Below is the code snippet required to embedding a video using the HTML5.<br>
+                        More information can be found here: <a href="https://www.w3schools.com/html/html5_video.asp" target="_blank" title="HTML Video Example. Courtesy of Big Buck Bunny."> here.</a>
+                    </p>
                     <pre>
 &lt;video poster="images/icon.jpg"
        controls
@@ -335,6 +378,15 @@
                         pluginspage="http://www.macromedia.com/go/getflashplayer" >
                 </div>
                 <figcaption>
+                    <p>Figure 6: Adobe Flash Player.<br>
+                        <br>
+                        To embed a Flash video (.flv, .fla, .swf), you either need to: <br>
+                        a) install the flash player plugin and by downloading <a href="https://get.adobe.com/flashplayer/otherversions/"> here </a> and placing it in your website’s folder or <br>
+                        b) simply reference the link of the Flash Player as an attribute in the ebbed tag (This is the method used here).<br>
+                        More information can be found here: <a href="https://help.adobe.com/en_US/as3/dev/WS4B441C24-BAE3-4110-91FD-A4E5EEFB2467.html" target="_blank" title="Embedding SWF content in HTML"> here.</a><br>
+                        NB! Adobe Flash Player does not provide playback controls when embedding videos using this method. In order to access the playback controls, <br>
+                        right click on the video.
+                    </p>
                     <pre>
 &lt;object type="application/x-shockwave-flash" width="560" height="315"&gt;
    &lt;param name="movie" value="videos/swf.swf"/&gt;
@@ -345,7 +397,7 @@
    &lt;param name="quality" value="best"/&gt;
    &lt;param name="allowFullScreen " value="true"/&gt;
 &lt;/object&gt;
-<hr> <h3>Using embed</h3> <hr>
+<hr> <p>Another Method to embed the flash video is the code below.</p> <hr>
 &lt;embed src="videos/swf.swf"
        wmode="transparent"
        play="false"
@@ -362,6 +414,17 @@
                 </figcaption>
             </figure>
         </section>
+
+        <div class="section" id="other-methods">
+            <p> There are several other methods to embed videos on websites. The 6 Methods above just provide some popular and easy methods.<br>
+            </p>
+
+        </div>
     </article>
+    <footer>
+        Developed by: Fabrice, Feugang Kemegni,
+        <a href="mailto:fabrigeas@gmail.com">fabrigeas@gmail.com</a>.
+        Jan. 2018<br>
+    </footer>
     </body>
 </html>
