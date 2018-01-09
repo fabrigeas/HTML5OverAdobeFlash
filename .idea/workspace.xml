@@ -2,11 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219edc50-34e0-4107-b640-e667bed69bed" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Bachelor-thesis-.Möglichkeiten der Anzeige von bewegten Bildern in HTML5 und deren Einsatz inklusive Abgrenzung zu Adobe Flash und anderen Video-Anzeigeformen.doc" afterPath="$PROJECT_DIR$/Bachelor-thesis-.Möglichkeiten der Anzeige von bewegten Bildern in HTML5 und deren Einsatz inklusive Abgrenzung zu Adobe Flash und anderen Video-Anzeigeformen.doc" />
+      <change beforePath="$PROJECT_DIR$/Bibliographic-Citations-APA-6th-Harvard-Feb14.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Embed Videos In Your Web Pages Using HTML5 _ WIRED.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Erstellung von Seminararbeiten.doc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Introduction-Chap1.pdf" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Possibilities of displaying moving pictures in HTML5 and their use, including limitations to Adobe Flash.pdf" afterPath="$PROJECT_DIR$/Possibilities of displaying moving pictures in HTML5 and their use, including limitations to Adobe Flash.pdf" />
-      <change beforePath="$PROJECT_DIR$/resources/css/main.css" afterPath="$PROJECT_DIR$/resources/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/resources/index.html" afterPath="$PROJECT_DIR$/resources/index.html" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/bildverarbeitung/A0_Inhalt.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bildverarbeitung/A2_Bilder.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bildverarbeitung/Standardbilder.rar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bildverarbeitung/vid_lecture01fin.ppt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/citing-image.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/document.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/animated.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/core.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/icons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/larger.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/list.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/path.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/stacked.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/jquery-3.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/temp.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bachelorfinal.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/thesispusch.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vid_lecture01fin.ppt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,59 +69,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="72" column="136" lean-forward="false" selection-start-line="72" selection-start-column="136" selection-end-line="72" selection-end-column="136" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#1229#1301#0" expanded="false" />
-                <element signature="e#1313#2986#0" expanded="false" />
-                <element signature="n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#iframe#0;n#figure#0;n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#pre#0;n#figcaption#0;n#figure#0;n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#OBJECT#0;n#figure#0;n#section#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#EMBED#0;n#OBJECT#0;n#figure#0;n#section#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#pre#0;n#figcaption#0;n#figure#0;n#section#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#16622#16626#0" expanded="true" />
-                <element signature="e#16631#16635#0" expanded="true" />
-                <element signature="n#a#0;n#figure#0;n#section#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#embed#0;n#div#0;n#figure#0;n#section#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-              <folding>
-                <element signature="e#1#82#0" expanded="false" />
-                <element signature="e#88#108#0" expanded="false" />
-                <element signature="e#135#202#0" expanded="false" />
-                <element signature="e#207#284#0" expanded="false" />
-                <element signature="e#296#380#0" expanded="false" />
-                <element signature="e#391#445#0" expanded="false" />
-                <element signature="e#458#506#0" expanded="false" />
-                <element signature="e#523#643#0" expanded="false" />
-                <element signature="e#664#709#0" expanded="false" />
-                <element signature="e#714#805#0" expanded="false" />
-                <element signature="e#816#877#0" expanded="false" />
-                <element signature="e#890#893#0" expanded="false" />
-                <element signature="e#910#956#0" expanded="false" />
-                <element signature="e#964#1033#0" expanded="false" />
-                <element signature="e#1048#1075#0" expanded="false" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="532">
+                <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -81,7 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getflashplayer</find>
       <find>&lt;/param&gt;</find>
       <find>&gt;&lt;/param&gt;</find>
       <find>&quot;</find>
@@ -111,6 +115,7 @@
       <find>hidden</find>
       <find>embed</find>
       <find>&lt;embed</find>
+      <find>##</find>
     </findStrings>
     <replaceStrings>
       <replace>/&gt;</replace>
@@ -130,9 +135,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/resources/scripts/main.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/resources/css/main.css" />
         <option value="$PROJECT_DIR$/resources/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -248,7 +253,7 @@
       <workItem from="1514908383643" duration="2867000" />
       <workItem from="1515070521836" duration="4397000" />
       <workItem from="1515439347583" duration="599000" />
-      <workItem from="1515486279485" duration="8707000" />
+      <workItem from="1515486279485" duration="10383000" />
     </task>
     <task id="LOCAL-00001" summary="swf introduction to:">
       <created>1510752462169</created>
@@ -296,7 +301,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76822000" />
+    <option name="totallyTimeSpent" value="78498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -305,7 +310,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28477305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -332,13 +337,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28477305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28477305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1517,7 +1522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5chars.ent">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1575,6 +1579,17 @@
             <element signature="n#embed#0;n#div#0;n#figure#0;n#section#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="532">
+            <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
