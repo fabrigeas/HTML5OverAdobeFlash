@@ -44,7 +44,7 @@ the instructions found on the documentation pages that I provide besides each co
 ## Acknowledgments
 
 First and foremost, I must thank my thesis supervisors, Prof. Dr. Bernd Ruhland, 
-for the support, patience, understanding, availability, efforts and without who’s 
+for the support, patience, understanding, availability, efforts and without whoï¿½s 
 assistance and dedicated involvement in every step throughout the process, 
 this paper would have never been accomplished. 
 Thank you very much for your being patient, available understanding and 
