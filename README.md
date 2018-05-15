@@ -1,6 +1,6 @@
 
-# Bachelor thesis: Possibilities of displaying moving images in HTML5 including the limitations 
-when compared to Adobe Flash and other Methods
+# Bachelor thesis: 
+## Possibilities of displaying moving images in HTML5 including the limitations when compared to Adobe Flash and other Methods
 
 by: Fabrice, Feugang Kemegni,
 
@@ -11,6 +11,17 @@ Department of: Applied Computer Science: Software Construction B.Sc.,
 University: Hochschule Worms Germany,
 
 Supervised by: [Prof. Dr. Bernd Ruhland](ruhland@hs-worms.de)
+
+## Abstract
+
+For several years the dominant technology for displaying moving images (videos and animations) in websites was the use of Adobe Flash, 
+however Adobe Flash has become increasingly criticized and discredited in the recent years due to the its instability and its susceptibility to attacks, 
+this to the point that the company Adobe decided to shut down its Adobe Flash Platform by 2020. 
+
+The new standards of the W3C (Wide Web Consortium) i.e. HTML5 offers new features including elements that facilitate the display of moving im-ages on webpages. 
+HTML5 is now replacing Adobe Flash as the dominant method for the task of displaying moving images in webpages. 
+
+This thesis will demonstrate the possibili-ties that HTML5 offers for displaying moving images as well as the limitation when com-pared to other technologies precisely Adobe Flash.
 
 ## In this repository
 
